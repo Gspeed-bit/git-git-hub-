@@ -1,3 +1,9 @@
+ body, h1,h2,a,ul,li{
+     margin: 0;
+     padding: 0;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ 
  header {
    background-color: red;
    padding: 40px;
@@ -49,7 +55,7 @@ header h1{
      background-color: #f4f4f4;
      padding: 20px;
      position: sticky;
-     top: 180px;
+     top: 130px;
  }
  nav ul{
      white-space: nowrap;
@@ -68,5 +74,67 @@ header h1{
      color: #4b4b4b;
  } 
 
+ nav li a[href="/join.html"]{
+    text-decoration: none;
+     color: red;
+ } 
 
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+ article h2{
+     color: red;
+ }
+
+ article p{
+     line-height: 25px ;
+     color: #4b4b4b;
+ }
+ .images{
+     text-align: center;
+     margin: 80px 0px;
+     white-space: nowrap;
+ }
+ .images li{
+     display: inline-block;
+     width: 40%;
+     margin: 20px 10px;
+    
+ }
+
+ .images li img{
+     max-width: 100%;
+ }
+ .join{
+     background-color: #f4f4f4;
+     text-align: center;
+     padding: 60px 20px;
+     width: 100%;
+     color: #4b4b4b;
+     
+ }
+ .join h2{
+     font-size: 35px;
+ }
  
+.join form input{
+       margin: 20px 0;
+       border: 20px solid #ffffff;
+       border-radius: 28px;
+       font-size: 25px;
+       text-align: center;
+       padding: 0px 10px; 
+ }
+
+ footer{
+     background-color: red;
+     padding: 10px;
+     text-align: center;
+     color: white;
+     font-size: 20px;
+ }
