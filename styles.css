@@ -1,3 +1,72 @@
-header{
-    position: static;
+ header {
+   background-color: red;
+   padding: 40px;
+   position: fixed;
+   text-align: center;
+   width: 100%;
+    z-index: 1;
+   top: 0;
+   left: 0;
+   right:0;
 }
+
+header h1{
+    color: #ffffff;
+    border: 8px solid #FFFFFF;
+    display: inline-block;
+    border-radius: 37px;
+    padding: 6px 12px;
+    
+
+}
+.banner{
+    position: relative;
+    
+}
+
+.banner img{
+   max-width: 100%;
+}
+
+.banner .welcome{
+    background-color: #feb614;
+    color: #ffffff;
+    padding: 30px;
+    position: absolute;
+    left: 0%;
+    top: 30%;
+  
+ }
+
+ .banner h2{
+     font-size: 74px;
+ }
+ .banner h2 span{
+     font-size: 90px;
+ }
+
+ nav{
+     background-color: #f4f4f4;
+     padding: 20px;
+     position: sticky;
+     top: 180px;
+ }
+ nav ul{
+     white-space: nowrap;
+     max-width: 1200px;
+     margin: 0 auto;
+ }
+ nav li {
+    width: 25%;
+     display: inline-block;
+    font-size: 24px;
+    
+ }
+
+ nav li a{
+    text-decoration: none;
+     color: #4b4b4b;
+ } 
+
+
+ 
